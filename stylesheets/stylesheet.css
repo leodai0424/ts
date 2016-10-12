@@ -1,9 +1,17 @@
-body {
-  background-color: black;
-  color: white;}
+/* font */
+@font-face:{
+  font-family: 'cwTeXKai', serif;
+  font-family: 'Roboto', sans-serif;}
 
-div.box{min-width:450px;
-max-width:650px;
-text-align:left;
-padding:5px;
-margin:0px;}
+body{
+  margin:50px;
+  background-color: white;
+  color: black;
+font-size:100px;}
+
+p{font-family:cwTeXKai;}
+
+div{font-family: Roboto;
+font-weight: 100;}
+
+span{font-family: Roboto;}
