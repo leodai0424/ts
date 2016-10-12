@@ -1,17 +1,22 @@
 /* font */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 @font-face:{
-  font-family: 'cwTeXKai', serif;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+  font-family: ‘Noto Sans TC’, sans-serif;}
 
 body{
   margin:50px;
   background-color: white;
   color: black;
-font-size:100px;}
+  font-size:50px;
+  }
 
-p{font-family:cwTeXKai;}
+p.cht{font-family: Microsoft JhengHei;
+}
 
-div{font-family: Roboto;
-font-weight: 100;}
+p.cht1{font-family: Noto Sans TC;
+}
 
-span{font-family: Roboto;}
+p.eng{font-family: Roboto;
+   font-weight: 100;}
