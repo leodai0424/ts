@@ -6,19 +6,20 @@
   font-family: 'Microsoft JhengHei', '微軟正黑體', Verdana, Arial, 'Microsoft YaHei' !important;}
 
 body{
+  margin-left:auto;
+  margin-right:auto;
   background-color: white;
   color: black;
   font-size:16px;
-  max-width:960px;
+  max-width:1000px;
   font-family: Roboto,'Microsoft JhengHei';
-  font-weight:300;
   }
 
 div.top-menu{
   position:fixed;
   top: 0px;
   padding: 30px;
-  width: 100%;
+  width: 1000px;
   background-color:black;
   color: white;
   }
@@ -26,8 +27,9 @@ div.top-menu{
 #first{margin-top:100px;}
 
 #home,#about,#news,#products,#dealer{
-  padding-left:20px;
+  padding-left:10px;
   color:white;
-  font-weight:300;}
+  font-weight:400;
+  font-size:20px;}
 
-#lk {margin-top:70px; }
+p{padding-left:10px;}
