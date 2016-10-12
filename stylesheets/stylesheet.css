@@ -3,33 +3,31 @@
 
 @font-face:{
   font-family: 'Roboto', sans-serif;
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei', '微軟正黑體', Verdana, Arial, 'Microsoft YaHei' !important;}
+  font-family: 'Microsoft JhengHei', '微軟正黑體', Verdana, Arial, 'Microsoft YaHei' !important;}
 
 body{
-  margin-left:20px;
   background-color: white;
   color: black;
   font-size:16px;
-  width:960px;
-  font-family: Roboto;
+  max-width:960px;
+  font-family: Roboto,'Microsoft JhengHei';
   font-weight:300;
   }
 
-p.cht{font-family: Microsoft JhengHei;}
-
-ul.top-menu{
+div.top-menu{
   position:fixed;
   top: 0px;
-  padding: 10px;
-  margin: 0px;
-  width: 960px;
-  background-color:#efefef;
-  border:10px solid #0088dd;
-  list-style-type:none;
-  
-}
-
-#first{margin-top:180px;}
-#home,#about,#news,#products,#dealer{width:300px;
-  margin:0px auto 0px auto;
+  padding: 30px;
+  width: 100%;
+  background-color:black;
+  color: white;
   }
+
+#first{margin-top:100px;}
+
+#home,#about,#news,#products,#dealer{
+  padding-left:20px;
+  color:white;
+  font-weight:100;}
+
+#lk {margin-top:70px; }
