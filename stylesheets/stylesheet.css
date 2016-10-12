@@ -9,12 +9,12 @@ body{
   background-color: white;
   color: black;
   font-size:16px;
+  width:960px;
+  font-family: Roboto;
+  font-weight:300;
   }
 
-p.cht{font-family: Microsoft JhengHei;
-}
-
-p.cht1{font-family: Noto Sans TC;}
+p.cht{font-family: Microsoft JhengHei;}
 
 p.eng{font-family: Roboto;
    font-weight: 100;}
@@ -26,6 +26,8 @@ ul.top-menu{
   margin: 0px;
   width: 100%;
   background-color:#efefef;
+  border:20px solid #0088dd;
+  list-style-type:none;
 }
 
-p.cht{margin-top:200px;}
+#first{margin-top:180px;}
