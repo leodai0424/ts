@@ -22,11 +22,10 @@ p.eng{font-family: Roboto;
 ul.top-menu{
   position:fixed;
   top: 0px;
-  left: 50px;
   padding: 10px;
   margin: 0px;
   width: 100%;
   background-color:#efefef;
 }
 
-p{margin-top:200px;}
+p.cht{margin-top:200px;}
